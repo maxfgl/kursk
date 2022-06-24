@@ -1,0 +1,14 @@
+CREATE TABLE [dbo].[Glavn] (
+    [id]               INT          NOT NULL,
+    [№poezda]          INT          NULL,
+    [arrival time]     VARCHAR (50) NULL,
+    [Nazvanir stancii] VARCHAR (50) NULL
+);
+
+===================================================
+
+CREATE TABLE [dbo].[reg] (
+    [login]    VARCHAR (50) NULL,
+    [password] VARCHAR (50) NULL,
+    [id]       VARCHAR (50) NULL
+);
